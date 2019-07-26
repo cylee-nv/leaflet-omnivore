@@ -1,9 +1,9 @@
-var xhr = require('corslite'),
+var xhr = require('@mapbox/corslite'),
     csv2geojson = require('csv2geojson'),
     wellknown = require('wellknown'),
-    polyline = require('polyline'),
+    polyline = require('@mapbox/polyline'),
     topojson = require('topojson'),
-    toGeoJSON = require('togeojson');
+    toGeoJSON = require('@mapbox/togeojson');
 
 module.exports.polyline = polylineLoad;
 module.exports.polyline.parse = polylineParse;
